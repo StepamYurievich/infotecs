@@ -1,0 +1,24 @@
+.table {
+    width: 100%;
+}
+.table tr{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.table th {
+    border-collapse: collapse;
+    font-weight: 400;
+    background: #efefef;
+    position: relative;
+}
+.table td {
+    border: 1px solid #dddddd;
+}
+tbody tr{
+    cursor: pointer;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

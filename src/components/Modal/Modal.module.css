@@ -1,0 +1,27 @@
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+.modal__content{
+    background-color: #ffff;
+    padding:50px 100px;
+    border-radius: 10px;
+    max-width: 600px;
+
+}
+.modal_body{
+    display: grid;
+    gap: 10px;
+}
+.modal_body_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
